@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #000000;
+    box-shadow: 0px 3px 10px #24252a;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+
+.imagelogo{
+    width: 120px;
+    height: 46px;
+}
+
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #ffffff;
+
+  }
+
+
+
+
+  .container {
+
+    max-width: 400px;
+
+    margin: 0 auto;
+
+    padding: 45px;
+
+    background-color: #cfcccc;
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+
+  }
+
+
+
+
+  .container h2 {
+
+    margin-bottom: 20px;
+
+  }
+
+
+
+
+
+
+
+
+
+  .container input {
+
+    width: 100%;
+
+    padding: 5px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #9e9a9a;
+
+    border-radius: 3px;
+
+  }
+
+
+
+
+  .container button {
+
+    width: 110px;
+
+    padding: 10px;
+
+    background-color: #030303;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+
+  }
+
+
+
+
+
+
+
+
+
+  .container button:hover {
+
+    background-color: #45a049;
+
+  }
+
+
+
+
+
+
+
+
+
+  .error {
+
+    color: red;
+
+  }
